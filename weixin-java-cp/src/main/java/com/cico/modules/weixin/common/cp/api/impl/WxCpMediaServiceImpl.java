@@ -1,17 +1,17 @@
-package me.chanjar.weixin.cp.api.impl;
-
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.fs.FileUtils;
-import me.chanjar.weixin.common.util.http.MediaDownloadRequestExecutor;
-import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
-import me.chanjar.weixin.cp.api.WxCpMediaService;
-import me.chanjar.weixin.cp.api.WxCpService;
+package com.cico.modules.weixin.common.cp.api.impl;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.UUID;
+
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.cp.api.WxCpMediaService;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.fs.FileUtils;
+import com.cico.modules.weixin.common.util.http.MediaDownloadRequestExecutor;
+import com.cico.modules.weixin.common.util.http.MediaUploadRequestExecutor;
 
 /**
  * <pre>

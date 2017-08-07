@@ -1,12 +1,12 @@
-package me.chanjar.weixin.cp.api.impl;
+package com.cico.modules.weixin.common.cp.api.impl;
 
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.api.WxCpUserService;
+import com.cico.modules.weixin.common.cp.bean.WxCpUser;
+import com.cico.modules.weixin.common.cp.util.json.WxCpGsonBuilder;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.api.WxCpUserService;
-import me.chanjar.weixin.cp.bean.WxCpUser;
-import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
 
 import java.util.List;
 

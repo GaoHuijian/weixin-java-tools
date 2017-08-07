@@ -1,7 +1,10 @@
-package me.chanjar.weixin.cp.bean;
+package com.cico.modules.weixin.common.cp.bean;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutImageMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutMessage;
 
 @Test
 public class WxCpXmlOutImageMessageTest {

@@ -1,9 +1,9 @@
-package me.chanjar.weixin.cp.demo;
+package com.cico.modules.weixin.common.cp.demo;
 
+import com.cico.modules.weixin.common.cp.config.WxCpInMemoryConfigStorage;
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-import me.chanjar.weixin.cp.config.WxCpInMemoryConfigStorage;
 
 import java.io.InputStream;
 

@@ -1,12 +1,13 @@
-package me.chanjar.weixin.cp.api.impl;
+package com.cico.modules.weixin.common.cp.api.impl;
 
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.cp.api.ApiTestModule;
+import com.cico.modules.weixin.common.cp.api.TestConstants;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.inject.Inject;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.cp.api.ApiTestModule;
-import me.chanjar.weixin.cp.api.TestConstants;
-import me.chanjar.weixin.cp.api.WxCpService;
+
 import org.testng.annotations.*;
 
 import java.io.File;

@@ -1,11 +1,12 @@
-package me.chanjar.weixin.cp.api.impl;
+package com.cico.modules.weixin.common.cp.api.impl;
 
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.bean.menu.WxMenuButton;
+import com.cico.modules.weixin.common.cp.api.ApiTestModule;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
 import com.google.inject.Inject;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.bean.menu.WxMenuButton;
-import me.chanjar.weixin.cp.api.ApiTestModule;
-import me.chanjar.weixin.cp.api.WxCpService;
+
 import org.testng.annotations.*;
 
 import static org.testng.Assert.*;

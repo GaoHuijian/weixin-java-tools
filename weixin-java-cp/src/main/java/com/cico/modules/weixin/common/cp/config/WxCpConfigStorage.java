@@ -1,9 +1,9 @@
-package me.chanjar.weixin.cp.config;
-
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
+package com.cico.modules.weixin.common.cp.config;
 
 import java.io.File;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.util.http.apache.ApacheHttpClientBuilder;
 
 /**
  * 微信客户端配置存储

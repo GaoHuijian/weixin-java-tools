@@ -1,6 +1,6 @@
-package me.chanjar.weixin.cp.api;
+package com.cico.modules.weixin.common.cp.api;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

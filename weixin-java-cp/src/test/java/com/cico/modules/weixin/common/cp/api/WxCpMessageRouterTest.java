@@ -1,16 +1,18 @@
-package me.chanjar.weixin.cp.api;
+package com.cico.modules.weixin.common.cp.api;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.session.StandardSessionManager;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.cp.message.WxCpMessageHandler;
-import me.chanjar.weixin.cp.message.WxCpMessageMatcher;
-import me.chanjar.weixin.cp.message.WxCpMessageRouter;
-import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutMessage;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutMessage;
+import com.cico.modules.weixin.common.cp.message.WxCpMessageHandler;
+import com.cico.modules.weixin.common.cp.message.WxCpMessageMatcher;
+import com.cico.modules.weixin.common.cp.message.WxCpMessageRouter;
+import com.cico.modules.weixin.common.session.StandardSessionManager;
+import com.cico.modules.weixin.common.session.WxSessionManager;
 
 import java.util.Map;
 

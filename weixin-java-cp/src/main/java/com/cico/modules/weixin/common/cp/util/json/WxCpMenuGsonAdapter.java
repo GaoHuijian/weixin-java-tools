@@ -1,10 +1,10 @@
-package me.chanjar.weixin.cp.util.json;
+package com.cico.modules.weixin.common.cp.util.json;
 
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.util.json.WxMenuGsonAdapter;
 import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParseException;
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.util.json.WxMenuGsonAdapter;
 
 import java.lang.reflect.Type;
 

@@ -1,13 +1,14 @@
-package me.chanjar.weixin.cp.api;
+package com.cico.modules.weixin.common.cp.api;
 
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.api.impl.WxCpServiceImpl;
+import com.cico.modules.weixin.common.cp.config.WxCpConfigStorage;
+import com.cico.modules.weixin.common.cp.config.WxCpInMemoryConfigStorage;
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.google.inject.Binder;
 import com.google.inject.Module;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-import me.chanjar.weixin.cp.api.impl.WxCpServiceImpl;
-import me.chanjar.weixin.cp.config.WxCpConfigStorage;
-import me.chanjar.weixin.cp.config.WxCpInMemoryConfigStorage;
 
 import java.io.IOException;
 import java.io.InputStream;

@@ -1,11 +1,13 @@
-package me.chanjar.weixin.cp.api;
+package com.cico.modules.weixin.common.cp.api;
 
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.cp.api.impl.WxCpServiceImpl;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.api.impl.WxCpServiceImpl;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

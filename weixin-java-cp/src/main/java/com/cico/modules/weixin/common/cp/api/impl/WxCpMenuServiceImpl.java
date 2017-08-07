@@ -1,10 +1,10 @@
-package me.chanjar.weixin.cp.api.impl;
+package com.cico.modules.weixin.common.cp.api.impl;
 
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.cp.api.WxCpMenuService;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.cp.api.WxCpMenuService;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.util.json.WxCpGsonBuilder;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

@@ -1,4 +1,4 @@
-package me.chanjar.weixin.cp.bean.article;
+package com.cico.modules.weixin.common.cp.bean.article;
 
 /**
  * <pre>

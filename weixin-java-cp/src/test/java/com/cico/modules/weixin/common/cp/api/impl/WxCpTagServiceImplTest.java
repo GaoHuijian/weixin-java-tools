@@ -1,12 +1,13 @@
-package me.chanjar.weixin.cp.api.impl;
+package com.cico.modules.weixin.common.cp.api.impl;
 
+import com.cico.modules.weixin.common.cp.api.ApiTestModule;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.bean.WxCpTag;
+import com.cico.modules.weixin.common.cp.bean.WxCpTagAddOrRemoveUsersResult;
+import com.cico.modules.weixin.common.cp.bean.WxCpUser;
 import com.google.common.base.Splitter;
 import com.google.inject.Inject;
-import me.chanjar.weixin.cp.api.ApiTestModule;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.bean.WxCpTag;
-import me.chanjar.weixin.cp.bean.WxCpTagAddOrRemoveUsersResult;
-import me.chanjar.weixin.cp.bean.WxCpUser;
+
 import org.testng.annotations.*;
 
 import java.util.List;

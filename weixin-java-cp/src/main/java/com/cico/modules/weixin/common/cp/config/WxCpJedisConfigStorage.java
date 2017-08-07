@@ -1,12 +1,13 @@
-package me.chanjar.weixin.cp.config;
+package com.cico.modules.weixin.common.cp.config;
 
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 import redis.clients.jedis.JedisPoolConfig;
 
 import java.io.File;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.util.http.apache.ApacheHttpClientBuilder;
 
 /**
  * Jedis client implementor for wechat config storage

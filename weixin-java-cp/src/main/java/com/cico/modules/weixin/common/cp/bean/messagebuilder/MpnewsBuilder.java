@@ -1,11 +1,11 @@
-package me.chanjar.weixin.cp.bean.messagebuilder;
-
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.cp.bean.WxCpMessage;
-import me.chanjar.weixin.cp.bean.article.MpnewsArticle;
+package com.cico.modules.weixin.common.cp.bean.messagebuilder;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.cp.bean.WxCpMessage;
+import com.cico.modules.weixin.common.cp.bean.article.MpnewsArticle;
 
 /**
  * mpnews类型的图文消息builder

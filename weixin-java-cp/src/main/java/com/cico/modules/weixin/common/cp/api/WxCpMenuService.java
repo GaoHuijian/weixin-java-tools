@@ -1,7 +1,7 @@
-package me.chanjar.weixin.cp.api;
+package com.cico.modules.weixin.common.cp.api;
 
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>
@@ -35,7 +35,7 @@ public interface WxCpMenuService {
    *
    * @param agentId 企业号应用的id
    * @param menu    菜单对象
-   * @see #create(me.chanjar.weixin.common.bean.menu.WxMenu)
+   * @see #create(com.cico.modules.weixin.common.bean.menu.WxMenu)
    */
   void create(Integer agentId, WxMenu menu) throws WxErrorException;
 

@@ -1,10 +1,10 @@
-package me.chanjar.weixin.cp.config;
-
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
+package com.cico.modules.weixin.common.cp.config;
 
 import java.io.File;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.http.apache.ApacheHttpClientBuilder;
 
 /**
  * 基于内存的微信配置provider，在实际生产环境中应该将这些配置持久化

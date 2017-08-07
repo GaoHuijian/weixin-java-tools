@@ -1,9 +1,10 @@
-package me.chanjar.weixin.cp.bean;
+package com.cico.modules.weixin.common.cp.bean;
 
+import com.cico.modules.weixin.common.cp.util.json.WxCpGsonBuilder;
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.google.common.base.Splitter;
 import com.google.gson.annotations.SerializedName;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
+
 import org.apache.commons.lang3.StringUtils;
 
 import java.util.Collections;

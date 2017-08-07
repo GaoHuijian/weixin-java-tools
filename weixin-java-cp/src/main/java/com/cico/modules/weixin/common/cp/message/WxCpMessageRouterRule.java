@@ -1,17 +1,17 @@
-package me.chanjar.weixin.cp.message;
-
-import me.chanjar.weixin.common.api.WxErrorExceptionHandler;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutMessage;
+package com.cico.modules.weixin.common.cp.message;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.regex.Pattern;
+
+import com.cico.modules.weixin.common.api.WxErrorExceptionHandler;
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutMessage;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.session.WxSessionManager;
 
 public class WxCpMessageRouterRule {
 

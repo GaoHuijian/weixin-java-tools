@@ -6,11 +6,11 @@
  * arose from modification of the original source, or other redistribution of this source
  * is not permitted without written permission of the KINGSTAR MEDIA SOLUTIONS LTD.
  */
-package me.chanjar.weixin.cp.util.json;
+package com.cico.modules.weixin.common.cp.util.json;
 
+import com.cico.modules.weixin.common.cp.bean.WxCpDepart;
+import com.cico.modules.weixin.common.util.json.GsonHelper;
 import com.google.gson.*;
-import me.chanjar.weixin.common.util.json.GsonHelper;
-import me.chanjar.weixin.cp.bean.WxCpDepart;
 
 import java.lang.reflect.Type;
 

@@ -1,8 +1,10 @@
-package me.chanjar.weixin.cp.bean;
+package com.cico.modules.weixin.common.cp.bean;
 
-import me.chanjar.weixin.common.api.WxConsts;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlMessage;
 
 @Test
 public class WxCpXmlMessageTest {

@@ -1,12 +1,13 @@
-package me.chanjar.weixin.cp.demo;
+package com.cico.modules.weixin.common.cp.demo;
 
-import me.chanjar.weixin.cp.config.WxCpConfigStorage;
-import me.chanjar.weixin.cp.message.WxCpMessageRouter;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutMessage;
-import me.chanjar.weixin.cp.util.crypto.WxCpCryptUtil;
 import org.apache.commons.lang3.StringUtils;
+
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutMessage;
+import com.cico.modules.weixin.common.cp.config.WxCpConfigStorage;
+import com.cico.modules.weixin.common.cp.message.WxCpMessageRouter;
+import com.cico.modules.weixin.common.cp.util.crypto.WxCpCryptUtil;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;

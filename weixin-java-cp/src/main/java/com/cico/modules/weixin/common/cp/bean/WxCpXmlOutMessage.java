@@ -1,12 +1,12 @@
-package me.chanjar.weixin.cp.bean;
+package com.cico.modules.weixin.common.cp.bean;
 
+import com.cico.modules.weixin.common.cp.bean.outxmlbuilder.*;
+import com.cico.modules.weixin.common.cp.config.WxCpConfigStorage;
+import com.cico.modules.weixin.common.cp.util.crypto.WxCpCryptUtil;
+import com.cico.modules.weixin.common.cp.util.xml.XStreamTransformer;
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
-import me.chanjar.weixin.cp.config.WxCpConfigStorage;
-import me.chanjar.weixin.cp.bean.outxmlbuilder.*;
-import me.chanjar.weixin.cp.util.crypto.WxCpCryptUtil;
-import me.chanjar.weixin.cp.util.xml.XStreamTransformer;
 
 import java.io.Serializable;
 

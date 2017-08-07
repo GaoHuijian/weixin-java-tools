@@ -1,11 +1,12 @@
-package me.chanjar.weixin.cp.demo;
-
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.cp.api.WxCpService;
+package com.cico.modules.weixin.common.cp.demo;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+
 import java.io.IOException;
 import java.util.Arrays;
 

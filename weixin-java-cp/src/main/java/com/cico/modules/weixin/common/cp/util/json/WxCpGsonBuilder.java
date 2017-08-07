@@ -1,14 +1,14 @@
-package me.chanjar.weixin.cp.util.json;
+package com.cico.modules.weixin.common.cp.util.json;
 
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.cp.bean.WxCpDepart;
+import com.cico.modules.weixin.common.cp.bean.WxCpMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpTag;
+import com.cico.modules.weixin.common.cp.bean.WxCpUser;
+import com.cico.modules.weixin.common.util.json.WxErrorAdapter;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.util.json.WxErrorAdapter;
-import me.chanjar.weixin.cp.bean.WxCpDepart;
-import me.chanjar.weixin.cp.bean.WxCpMessage;
-import me.chanjar.weixin.cp.bean.WxCpTag;
-import me.chanjar.weixin.cp.bean.WxCpUser;
 
 public class WxCpGsonBuilder {
 

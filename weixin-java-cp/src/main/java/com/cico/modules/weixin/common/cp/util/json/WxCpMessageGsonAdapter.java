@@ -6,13 +6,14 @@
  * arose from modification of the original source, or other redistribution of this source
  * is not permitted without written permission of the KINGSTAR MEDIA SOLUTIONS LTD.
  */
-package me.chanjar.weixin.cp.util.json;
+package com.cico.modules.weixin.common.cp.util.json;
 
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.cp.bean.WxCpMessage;
+import com.cico.modules.weixin.common.cp.bean.article.MpnewsArticle;
+import com.cico.modules.weixin.common.cp.bean.article.NewArticle;
 import com.google.gson.*;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.cp.bean.WxCpMessage;
-import me.chanjar.weixin.cp.bean.article.MpnewsArticle;
-import me.chanjar.weixin.cp.bean.article.NewArticle;
+
 import org.apache.commons.lang3.StringUtils;
 
 import java.lang.reflect.Type;

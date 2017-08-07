@@ -1,17 +1,18 @@
-package me.chanjar.weixin.cp.demo;
+package com.cico.modules.weixin.common.cp.demo;
 
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.cp.api.WxCpService;
-import me.chanjar.weixin.cp.api.impl.WxCpServiceImpl;
-import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutMessage;
-import me.chanjar.weixin.cp.bean.WxCpXmlOutTextMessage;
-import me.chanjar.weixin.cp.config.WxCpConfigStorage;
-import me.chanjar.weixin.cp.message.WxCpMessageHandler;
-import me.chanjar.weixin.cp.message.WxCpMessageRouter;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
+
+import com.cico.modules.weixin.common.cp.api.WxCpService;
+import com.cico.modules.weixin.common.cp.api.impl.WxCpServiceImpl;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutTextMessage;
+import com.cico.modules.weixin.common.cp.config.WxCpConfigStorage;
+import com.cico.modules.weixin.common.cp.message.WxCpMessageHandler;
+import com.cico.modules.weixin.common.cp.message.WxCpMessageRouter;
+import com.cico.modules.weixin.common.session.WxSessionManager;
 
 import java.io.IOException;
 import java.io.InputStream;

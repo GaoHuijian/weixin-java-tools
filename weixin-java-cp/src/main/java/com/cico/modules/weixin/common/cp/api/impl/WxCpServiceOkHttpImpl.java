@@ -1,14 +1,15 @@
-package me.chanjar.weixin.cp.api.impl;
+package com.cico.modules.weixin.common.cp.api.impl;
 
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.HttpType;
-import me.chanjar.weixin.common.util.http.okhttp.OkHttpProxyInfo;
-import me.chanjar.weixin.cp.config.WxCpConfigStorage;
 import okhttp3.*;
 
 import java.io.IOException;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.cp.config.WxCpConfigStorage;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.HttpType;
+import com.cico.modules.weixin.common.util.http.okhttp.OkHttpProxyInfo;
 
 public class WxCpServiceOkHttpImpl extends AbstractWxCpServiceImpl<ConnectionPool, OkHttpProxyInfo> {
   protected ConnectionPool httpClient;

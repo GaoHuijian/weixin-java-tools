@@ -1,9 +1,11 @@
-package me.chanjar.weixin.cp.bean;
+package com.cico.modules.weixin.common.cp.bean;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.cp.bean.article.MpnewsArticle;
-import me.chanjar.weixin.cp.bean.article.NewArticle;
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.cp.bean.WxCpMessage;
+import com.cico.modules.weixin.common.cp.bean.article.MpnewsArticle;
+import com.cico.modules.weixin.common.cp.bean.article.NewArticle;
 
 import static org.testng.Assert.assertEquals;
 

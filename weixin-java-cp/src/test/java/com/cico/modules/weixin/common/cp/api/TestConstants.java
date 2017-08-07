@@ -1,4 +1,4 @@
-package me.chanjar.weixin.cp.api;
+package com.cico.modules.weixin.common.cp.api;
 
 /**
  * <pre>

@@ -1,8 +1,8 @@
-package me.chanjar.weixin.cp.util.xml;
+package com.cico.modules.weixin.common.cp.util.xml;
 
+import com.cico.modules.weixin.common.cp.bean.*;
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
-import me.chanjar.weixin.cp.bean.*;
 
 import java.io.InputStream;
 import java.util.HashMap;

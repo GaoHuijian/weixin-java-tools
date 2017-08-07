@@ -1,10 +1,10 @@
-package me.chanjar.weixin.cp.bean;
-
-import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
+package com.cico.modules.weixin.common.cp.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.cico.modules.weixin.common.cp.util.json.WxCpGsonBuilder;
 
 /**
  * 微信用户信息

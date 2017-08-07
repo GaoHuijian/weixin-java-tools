@@ -1,6 +1,6 @@
-package me.chanjar.weixin.cp.message;
+package com.cico.modules.weixin.common.cp.message;
 
-import me.chanjar.weixin.cp.bean.WxCpXmlMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlMessage;
 
 /**
  * 消息匹配器，用在消息路由的时候

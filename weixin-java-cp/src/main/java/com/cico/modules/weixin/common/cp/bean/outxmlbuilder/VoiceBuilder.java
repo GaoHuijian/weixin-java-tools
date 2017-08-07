@@ -1,6 +1,6 @@
-package me.chanjar.weixin.cp.bean.outxmlbuilder;
+package com.cico.modules.weixin.common.cp.bean.outxmlbuilder;
 
-import me.chanjar.weixin.cp.bean.WxCpXmlOutVoiceMessage;
+import com.cico.modules.weixin.common.cp.bean.WxCpXmlOutVoiceMessage;
 
 /**
  * 语音消息builder

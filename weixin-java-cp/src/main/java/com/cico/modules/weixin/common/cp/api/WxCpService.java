@@ -1,21 +1,21 @@
-package me.chanjar.weixin.cp.api;
-
-import me.chanjar.weixin.common.bean.WxJsapiSignature;
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.session.WxSession;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestHttp;
-import me.chanjar.weixin.cp.bean.*;
-import me.chanjar.weixin.cp.config.WxCpConfigStorage;
+package com.cico.modules.weixin.common.cp.api;
 
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.List;
+
+import com.cico.modules.weixin.common.bean.WxJsapiSignature;
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.cp.bean.*;
+import com.cico.modules.weixin.common.cp.config.WxCpConfigStorage;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.session.WxSession;
+import com.cico.modules.weixin.common.session.WxSessionManager;
+import com.cico.modules.weixin.common.util.http.MediaUploadRequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
 
 /**
  * 微信API的Service
@@ -379,7 +379,7 @@ public interface WxCpService {
   /**
    * <pre>
    * 设置WxSessionManager，只有当需要使用个性化的WxSessionManager的时候才需要调用此方法，
-   * WxCpService默认使用的是{@link me.chanjar.weixin.common.session.StandardSessionManager}
+   * WxCpService默认使用的是{@link com.cico.modules.weixin.common.session.StandardSessionManager}
    * </pre>
    *
    * @param sessionManager 会话管理器

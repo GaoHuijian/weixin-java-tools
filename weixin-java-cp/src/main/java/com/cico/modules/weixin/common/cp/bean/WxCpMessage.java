@@ -1,13 +1,13 @@
-package me.chanjar.weixin.cp.bean;
-
-import me.chanjar.weixin.cp.bean.article.MpnewsArticle;
-import me.chanjar.weixin.cp.bean.article.NewArticle;
-import me.chanjar.weixin.cp.bean.messagebuilder.*;
-import me.chanjar.weixin.cp.util.json.WxCpGsonBuilder;
+package com.cico.modules.weixin.common.cp.bean;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.cico.modules.weixin.common.cp.bean.article.MpnewsArticle;
+import com.cico.modules.weixin.common.cp.bean.article.NewArticle;
+import com.cico.modules.weixin.common.cp.bean.messagebuilder.*;
+import com.cico.modules.weixin.common.cp.util.json.WxCpGsonBuilder;
 
 /**
  * 消息
@@ -129,13 +129,13 @@ public class WxCpMessage implements Serializable {
   /**
    * <pre>
    * 请使用
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_TEXT}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_IMAGE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_VOICE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_MUSIC}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_VIDEO}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_NEWS}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_MPNEWS}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_TEXT}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_IMAGE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_VOICE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_MUSIC}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_VIDEO}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_NEWS}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_MPNEWS}
    * </pre>
    *
    * @param msgType 消息类型
