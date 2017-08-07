@@ -1,7 +1,7 @@
 <xml>
-  <corpId>企业号corpid</corpId>
-  <corpSecret>企业号corpsecret</corpSecret>
-  <agentId>企业号应用id</agentId>
+  <corpId>wwb78937b4d5104f4d</corpId>
+  <corpSecret>wpa3_sD49vgydo3W5k-6ipGr2pbhUmiwyJp-ZILvVIQ</corpSecret>
+  <agentId>1000008</agentId>
   <token>企业号应用Token</token>
   <aesKey>企业号应用EncodingAESKey</aesKey>
   <accessToken>可以不填写</accessToken>
