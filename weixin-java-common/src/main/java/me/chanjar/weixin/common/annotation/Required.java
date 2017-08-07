@@ -12,6 +12,11 @@ import java.lang.annotation.Target;
  *
  * @author binarywang (https://github.com/binarywang)
  */
+/**
+ * test
+ * @author gaohu
+ *
+ */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
 public @interface Required {
