@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.api.impl;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpDeviceService;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.device.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * Created by keungtung on 10/12/2016.

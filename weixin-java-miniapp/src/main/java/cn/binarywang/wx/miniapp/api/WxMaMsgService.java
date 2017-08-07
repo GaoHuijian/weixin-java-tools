@@ -1,8 +1,9 @@
 package cn.binarywang.wx.miniapp.api;
 
+import com.cico.modules.weixin.common.exception.WxErrorException;
+
 import cn.binarywang.wx.miniapp.bean.WxMaKefuMessage;
 import cn.binarywang.wx.miniapp.bean.WxMaTemplateMessage;
-import me.chanjar.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

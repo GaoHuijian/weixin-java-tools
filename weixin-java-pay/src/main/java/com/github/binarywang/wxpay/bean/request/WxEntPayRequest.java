@@ -1,7 +1,7 @@
 package com.github.binarywang.wxpay.bean.request;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.ToStringUtils;
 
 /**
  * <pre>

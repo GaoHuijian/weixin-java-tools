@@ -1,8 +1,9 @@
 package me.chanjar.weixin.mp.bean.tag;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.google.gson.JsonParser;
 import com.google.gson.reflect.TypeToken;
-import me.chanjar.weixin.common.util.ToStringUtils;
+
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 import java.util.List;

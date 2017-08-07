@@ -6,8 +6,10 @@ import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
 import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
 import cn.binarywang.wx.miniapp.config.WxMaConfig;
 import cn.binarywang.wx.miniapp.util.crypt.WxMaCryptUtils;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.common.base.Joiner;
-import me.chanjar.weixin.common.exception.WxErrorException;
+
 import org.apache.commons.codec.digest.DigestUtils;
 
 import java.util.HashMap;

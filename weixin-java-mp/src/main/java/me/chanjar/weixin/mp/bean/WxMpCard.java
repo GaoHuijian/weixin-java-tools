@@ -1,7 +1,7 @@
 package me.chanjar.weixin.mp.bean;
 
 
-import me.chanjar.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.ToStringUtils;
 
 /**
  * 微信卡券

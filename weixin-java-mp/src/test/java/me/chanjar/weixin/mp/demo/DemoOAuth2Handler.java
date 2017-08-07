@@ -1,13 +1,14 @@
 package me.chanjar.weixin.mp.demo;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.session.WxSessionManager;
 import me.chanjar.weixin.mp.api.WxMpMessageHandler;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 
 import java.util.Map;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.session.WxSessionManager;
 
 /**
  * Created by qianjia on 15/1/22.

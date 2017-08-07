@@ -1,10 +1,11 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.RequestExecutor;
 import me.chanjar.weixin.mp.api.impl.WxMpServiceApacheHttpClientImpl;
 import org.testng.annotations.*;
+
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
 
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;

@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.util.http;
 
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestHttp;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
+
 import me.chanjar.weixin.mp.bean.material.WxMpMaterialNews;
 import me.chanjar.weixin.mp.util.http.apache.ApacheMaterialNewsInfoRequestExecutor;
 import me.chanjar.weixin.mp.util.http.jodd.JoddMaterialNewsInfoRequestExecutor;

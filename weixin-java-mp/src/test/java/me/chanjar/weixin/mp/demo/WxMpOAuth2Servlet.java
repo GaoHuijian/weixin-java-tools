@@ -1,6 +1,5 @@
 package me.chanjar.weixin.mp.demo;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.result.WxMpOAuth2AccessToken;
 import me.chanjar.weixin.mp.bean.result.WxMpUser;
@@ -8,6 +7,9 @@ import me.chanjar.weixin.mp.bean.result.WxMpUser;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
+
 import java.io.IOException;
 
 public class WxMpOAuth2Servlet extends HttpServlet {

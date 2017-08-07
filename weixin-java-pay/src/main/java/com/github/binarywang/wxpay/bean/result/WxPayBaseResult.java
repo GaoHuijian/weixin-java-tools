@@ -1,5 +1,7 @@
 package com.github.binarywang.wxpay.bean.result;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.github.binarywang.wxpay.exception.WxPayException;
 import com.github.binarywang.wxpay.service.impl.WxPayServiceImpl;
 import com.github.binarywang.wxpay.util.SignUtils;
@@ -7,8 +9,7 @@ import com.google.common.base.Joiner;
 import com.google.common.collect.Maps;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
+
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -8,11 +8,12 @@
  */
 package me.chanjar.weixin.mp.util.json;
 
+import com.cico.modules.weixin.common.api.WxConsts;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonSerializationContext;
 import com.google.gson.JsonSerializer;
-import me.chanjar.weixin.common.api.WxConsts;
+
 import me.chanjar.weixin.mp.bean.WxMpMassTagMessage;
 
 import java.lang.reflect.Type;

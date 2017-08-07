@@ -1,11 +1,5 @@
 package me.chanjar.weixin.mp.api.impl;
 
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.HttpType;
-import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
-import me.chanjar.weixin.common.util.http.apache.DefaultApacheHttpClientBuilder;
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import me.chanjar.weixin.mp.api.WxMpService;
 import org.apache.http.HttpHost;
@@ -14,6 +8,13 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.BasicResponseHandler;
 import org.apache.http.impl.client.CloseableHttpClient;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.HttpType;
+import com.cico.modules.weixin.common.util.http.apache.ApacheHttpClientBuilder;
+import com.cico.modules.weixin.common.util.http.apache.DefaultApacheHttpClientBuilder;
 
 import java.io.IOException;
 import java.util.concurrent.locks.Lock;

@@ -1,17 +1,18 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.api.WxErrorExceptionHandler;
-import me.chanjar.weixin.common.api.WxMessageDuplicateChecker;
-import me.chanjar.weixin.common.api.WxMessageInMemoryDuplicateChecker;
-import me.chanjar.weixin.common.session.InternalSession;
-import me.chanjar.weixin.common.session.InternalSessionManager;
-import me.chanjar.weixin.common.session.StandardSessionManager;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.common.util.LogExceptionHandler;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.cico.modules.weixin.common.api.WxErrorExceptionHandler;
+import com.cico.modules.weixin.common.api.WxMessageDuplicateChecker;
+import com.cico.modules.weixin.common.api.WxMessageInMemoryDuplicateChecker;
+import com.cico.modules.weixin.common.session.InternalSession;
+import com.cico.modules.weixin.common.session.InternalSessionManager;
+import com.cico.modules.weixin.common.session.StandardSessionManager;
+import com.cico.modules.weixin.common.session.WxSessionManager;
+import com.cico.modules.weixin.common.util.LogExceptionHandler;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -86,8 +87,8 @@ public class WxMpMessageRouter {
 
   /**
    * <pre>
-   * 设置自定义的 {@link me.chanjar.weixin.common.api.WxMessageDuplicateChecker}
-   * 如果不调用该方法，默认使用 {@link me.chanjar.weixin.common.api.WxMessageInMemoryDuplicateChecker}
+   * 设置自定义的 {@link com.cico.modules.weixin.common.api.WxMessageDuplicateChecker}
+   * 如果不调用该方法，默认使用 {@link com.cico.modules.weixin.common.api.WxMessageInMemoryDuplicateChecker}
    * </pre>
    */
   public void setMessageDuplicateChecker(WxMessageDuplicateChecker messageDuplicateChecker) {
@@ -96,8 +97,8 @@ public class WxMpMessageRouter {
 
   /**
    * <pre>
-   * 设置自定义的{@link me.chanjar.weixin.common.session.WxSessionManager}
-   * 如果不调用该方法，默认使用 {@link me.chanjar.weixin.common.session.StandardSessionManager}
+   * 设置自定义的{@link com.cico.modules.weixin.common.session.WxSessionManager}
+   * 如果不调用该方法，默认使用 {@link com.cico.modules.weixin.common.session.StandardSessionManager}
    * </pre>
    */
   public void setSessionManager(WxSessionManager sessionManager) {
@@ -106,8 +107,8 @@ public class WxMpMessageRouter {
 
   /**
    * <pre>
-   * 设置自定义的{@link me.chanjar.weixin.common.api.WxErrorExceptionHandler}
-   * 如果不调用该方法，默认使用 {@link me.chanjar.weixin.common.util.LogExceptionHandler}
+   * 设置自定义的{@link com.cico.modules.weixin.common.api.WxErrorExceptionHandler}
+   * 如果不调用该方法，默认使用 {@link com.cico.modules.weixin.common.util.LogExceptionHandler}
    * </pre>
    */
   public void setExceptionHandler(WxErrorExceptionHandler exceptionHandler) {

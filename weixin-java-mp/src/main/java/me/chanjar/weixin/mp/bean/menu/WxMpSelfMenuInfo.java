@@ -1,7 +1,7 @@
 package me.chanjar.weixin.mp.bean.menu;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.google.gson.annotations.SerializedName;
-import me.chanjar.weixin.common.util.ToStringUtils;
 
 import java.util.ArrayList;
 import java.util.List;

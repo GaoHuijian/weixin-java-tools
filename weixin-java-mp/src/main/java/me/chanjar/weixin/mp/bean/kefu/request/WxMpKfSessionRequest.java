@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.bean.kefu.request;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.google.gson.annotations.SerializedName;
-import me.chanjar.weixin.common.util.ToStringUtils;
+
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 import java.io.Serializable;

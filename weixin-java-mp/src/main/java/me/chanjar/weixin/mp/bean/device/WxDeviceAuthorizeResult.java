@@ -1,8 +1,8 @@
 package me.chanjar.weixin.mp.bean.device;
 
-import me.chanjar.weixin.common.util.json.WxGsonBuilder;
-
 import java.util.List;
+
+import com.cico.modules.weixin.common.util.json.WxGsonBuilder;
 
 /**
  * Created by keungtung on 10/12/2016.

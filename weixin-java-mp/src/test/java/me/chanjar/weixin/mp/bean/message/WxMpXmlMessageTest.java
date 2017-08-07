@@ -1,8 +1,9 @@
 package me.chanjar.weixin.mp.bean.message;
 
-import me.chanjar.weixin.common.api.WxConsts;
 import org.testng.*;
 import org.testng.annotations.*;
+
+import com.cico.modules.weixin.common.api.WxConsts;
 
 @Test
 public class WxMpXmlMessageTest {

@@ -1,8 +1,9 @@
 package cn.binarywang.wx.miniapp.bean;
 
-import me.chanjar.weixin.common.api.WxConsts;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.api.WxConsts;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

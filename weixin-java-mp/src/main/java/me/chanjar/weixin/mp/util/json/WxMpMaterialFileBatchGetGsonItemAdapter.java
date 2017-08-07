@@ -8,8 +8,9 @@
  */
 package me.chanjar.weixin.mp.util.json;
 
+import com.cico.modules.weixin.common.util.json.GsonHelper;
 import com.google.gson.*;
-import me.chanjar.weixin.common.util.json.GsonHelper;
+
 import me.chanjar.weixin.mp.bean.material.WxMpMaterialFileBatchGetResult;
 
 import java.lang.reflect.Type;

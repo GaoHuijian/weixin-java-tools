@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.util.http;
 
 
-  import me.chanjar.weixin.common.util.http.RequestExecutor;
-  import me.chanjar.weixin.common.util.http.RequestHttp;
+  import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
 
-  import me.chanjar.weixin.mp.bean.material.WxMpMaterialVideoInfoResult;
+import me.chanjar.weixin.mp.bean.material.WxMpMaterialVideoInfoResult;
   import me.chanjar.weixin.mp.util.http.apache.ApacheMaterialVideoInfoRequestExecutor;
   import me.chanjar.weixin.mp.util.http.jodd.JoddMaterialVideoInfoRequestExecutor;
   import me.chanjar.weixin.mp.util.http.okhttp.OkhttpMaterialVideoInfoRequestExecutor;

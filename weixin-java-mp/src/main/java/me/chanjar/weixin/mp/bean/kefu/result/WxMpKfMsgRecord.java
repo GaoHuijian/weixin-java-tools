@@ -1,7 +1,7 @@
 package me.chanjar.weixin.mp.bean.kefu.result;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.google.gson.annotations.SerializedName;
-import me.chanjar.weixin.common.util.ToStringUtils;
 
 /**
  * Created by Binary Wang on 2016/7/18.

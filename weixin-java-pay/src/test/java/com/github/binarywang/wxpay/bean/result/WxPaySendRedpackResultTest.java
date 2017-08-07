@@ -1,7 +1,8 @@
 package com.github.binarywang.wxpay.bean.result;
 
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
+
 import org.testng.*;
 import org.testng.annotations.*;
 

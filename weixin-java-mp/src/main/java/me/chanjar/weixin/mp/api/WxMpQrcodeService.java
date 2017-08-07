@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.bean.result.WxMpQrCodeTicket;
 
 import java.io.File;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

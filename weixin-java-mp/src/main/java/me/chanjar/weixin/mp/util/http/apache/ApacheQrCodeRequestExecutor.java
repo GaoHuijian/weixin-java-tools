@@ -1,11 +1,5 @@
 package me.chanjar.weixin.mp.util.http.apache;
 
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.fs.FileUtils;
-import me.chanjar.weixin.common.util.http.RequestHttp;
-import me.chanjar.weixin.common.util.http.apache.InputStreamResponseHandler;
-import me.chanjar.weixin.common.util.http.apache.Utf8ResponseHandler;
 import me.chanjar.weixin.mp.bean.result.WxMpQrCodeTicket;
 import me.chanjar.weixin.mp.util.http.QrCodeRequestExecutor;
 import org.apache.http.Header;
@@ -15,6 +9,13 @@ import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.entity.ContentType;
 import org.apache.http.impl.client.CloseableHttpClient;
+
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.fs.FileUtils;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
+import com.cico.modules.weixin.common.util.http.apache.InputStreamResponseHandler;
+import com.cico.modules.weixin.common.util.http.apache.Utf8ResponseHandler;
 
 import java.io.File;
 import java.io.IOException;

@@ -1,7 +1,7 @@
 package me.chanjar.weixin.mp.bean.device;
 
+import com.cico.modules.weixin.common.util.json.WxGsonBuilder;
 import com.google.gson.annotations.SerializedName;
-import me.chanjar.weixin.common.util.json.WxGsonBuilder;
 
 /**
  * Created by keungtung on 14/12/2016.

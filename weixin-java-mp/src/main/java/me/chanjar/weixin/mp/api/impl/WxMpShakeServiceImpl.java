@@ -1,6 +1,7 @@
 package me.chanjar.weixin.mp.api.impl;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.WxMpShakeService;
 import me.chanjar.weixin.mp.bean.WxMpShakeInfoResult;

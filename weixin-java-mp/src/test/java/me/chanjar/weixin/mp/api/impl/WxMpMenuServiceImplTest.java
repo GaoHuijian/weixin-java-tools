@@ -1,10 +1,11 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.bean.menu.WxMenu;
+import com.cico.modules.weixin.common.bean.menu.WxMenuButton;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.inject.Inject;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.bean.menu.WxMenu;
-import me.chanjar.weixin.common.bean.menu.WxMenuButton;
-import me.chanjar.weixin.common.exception.WxErrorException;
+
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
 import me.chanjar.weixin.mp.bean.menu.WxMpGetSelfMenuInfoResult;

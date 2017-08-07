@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import com.cico.modules.weixin.common.api.WxConsts;
 import com.google.inject.Inject;
-import me.chanjar.weixin.common.api.WxConsts;
+
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
 import me.chanjar.weixin.mp.api.test.TestConfigStorage;

@@ -1,13 +1,5 @@
 package me.chanjar.weixin.mp.api.impl;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.fs.FileUtils;
-import me.chanjar.weixin.common.util.http.MediaDownloadRequestExecutor;
-import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
-import me.chanjar.weixin.common.util.json.WxGsonBuilder;
 import me.chanjar.weixin.mp.api.WxMpMaterialService;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.bean.material.*;
@@ -20,6 +12,15 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.UUID;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.fs.FileUtils;
+import com.cico.modules.weixin.common.util.http.MediaDownloadRequestExecutor;
+import com.cico.modules.weixin.common.util.http.MediaUploadRequestExecutor;
+import com.cico.modules.weixin.common.util.json.WxGsonBuilder;
 
 /**
  * Created by Binary Wang on 2016/7/21.

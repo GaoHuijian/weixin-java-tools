@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.bean.material.*;
 
 import java.io.File;
 import java.io.InputStream;
+
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>
@@ -39,7 +40,7 @@ public interface WxMpMaterialService {
    * 接口url格式：https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE
    * </pre>
    *
-   * @param mediaType 媒体类型, 请看{@link me.chanjar.weixin.common.api.WxConsts}
+   * @param mediaType 媒体类型, 请看{@link com.cico.modules.weixin.common.api.WxConsts}
    * @param file      文件对象
    * @throws WxErrorException
    * @see #mediaUpload(String, String, InputStream)
@@ -55,8 +56,8 @@ public interface WxMpMaterialService {
    * 接口url格式：https://api.weixin.qq.com/cgi-bin/media/upload?access_token=ACCESS_TOKEN&type=TYPE
    * </pre>
    *
-   * @param mediaType   媒体类型, 请看{@link me.chanjar.weixin.common.api.WxConsts}
-   * @param fileType    文件类型，请看{@link me.chanjar.weixin.common.api.WxConsts}
+   * @param mediaType   媒体类型, 请看{@link com.cico.modules.weixin.common.api.WxConsts}
+   * @param fileType    文件类型，请看{@link com.cico.modules.weixin.common.api.WxConsts}
    * @param inputStream 输入流
    * @throws WxErrorException
    * @see #mediaUpload(java.lang.String, java.io.File)
@@ -112,7 +113,7 @@ public interface WxMpMaterialService {
    * 4、调用该接口需https协议
    * </pre>
    *
-   * @param mediaType 媒体类型, 请看{@link me.chanjar.weixin.common.api.WxConsts}
+   * @param mediaType 媒体类型, 请看{@link com.cico.modules.weixin.common.api.WxConsts}
    * @param material  上传的素材, 请看{@link WxMpMaterial}
    */
   WxMpMaterialUploadResult materialFileUpload(String mediaType, WxMpMaterial material) throws WxErrorException;
@@ -237,7 +238,7 @@ public interface WxMpMaterialService {
    * 接口url格式：https://api.weixin.qq.com/cgi-bin/material/batchget_material?access_token=ACCESS_TOKEN
    * </pre>
    *
-   * @param type   媒体类型, 请看{@link me.chanjar.weixin.common.api.WxConsts}
+   * @param type   媒体类型, 请看{@link com.cico.modules.weixin.common.api.WxConsts}
    * @param offset 从全部素材的该偏移位置开始返回，0表示从第一个素材 返回
    * @param count  返回素材的数量，取值在1到20之间
    */

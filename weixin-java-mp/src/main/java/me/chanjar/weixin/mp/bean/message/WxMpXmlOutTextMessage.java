@@ -1,9 +1,9 @@
 package me.chanjar.weixin.mp.bean.message;
 
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
 
 @XStreamAlias("xml")
 public class WxMpXmlOutTextMessage extends WxMpXmlOutMessage {

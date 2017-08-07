@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.gson.JsonObject;
-import me.chanjar.weixin.common.exception.WxErrorException;
+
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.WxMpUserService;
 import me.chanjar.weixin.mp.bean.WxMpUserQuery;

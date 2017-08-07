@@ -1,9 +1,11 @@
 package cn.binarywang.wx.miniapp.test;
 
 import cn.binarywang.wx.miniapp.config.WxMaInMemoryConfig;
+
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
+
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import java.io.InputStream;

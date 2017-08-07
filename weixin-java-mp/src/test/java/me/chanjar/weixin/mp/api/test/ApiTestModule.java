@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.api.test;
 
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.google.inject.Binder;
 import com.google.inject.Module;
 import com.thoughtworks.xstream.XStream;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
+
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import me.chanjar.weixin.mp.api.WxMpService;
 import me.chanjar.weixin.mp.api.impl.WxMpServiceApacheHttpClientImpl;

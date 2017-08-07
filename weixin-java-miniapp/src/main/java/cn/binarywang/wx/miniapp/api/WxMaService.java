@@ -1,10 +1,11 @@
 package cn.binarywang.wx.miniapp.api;
 
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.MediaUploadRequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
+
 import cn.binarywang.wx.miniapp.config.WxMaConfig;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestHttp;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.util.xml;
 
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
+
 import me.chanjar.weixin.mp.bean.message.*;
 
 import java.io.InputStream;

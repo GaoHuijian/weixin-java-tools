@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.bean.result;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.reflect.TypeToken;
-import me.chanjar.weixin.common.util.ToStringUtils;
+
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 import java.io.Serializable;

@@ -8,8 +8,9 @@
  */
 package me.chanjar.weixin.mp.util.json;
 
+import com.cico.modules.weixin.common.api.WxConsts;
 import com.google.gson.*;
-import me.chanjar.weixin.common.api.WxConsts;
+
 import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
 import org.apache.commons.lang3.StringUtils;
 

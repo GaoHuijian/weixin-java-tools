@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.bean.message;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
+
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import me.chanjar.weixin.mp.util.crypto.WxMpCryptUtil;
 import me.chanjar.weixin.mp.util.xml.XStreamTransformer;
@@ -641,13 +642,13 @@ public class WxMpXmlMessage implements Serializable {
   /**
    * <pre>
    * 当接受用户消息时，可能会获得以下值：
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_TEXT}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_IMAGE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_VOICE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_VIDEO}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_LOCATION}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_LINK}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_EVENT}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_TEXT}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_IMAGE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_VOICE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_VIDEO}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_LOCATION}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_LINK}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_EVENT}
    * </pre>
    */
   public String getMsgType() {
@@ -657,12 +658,12 @@ public class WxMpXmlMessage implements Serializable {
   /**
    * <pre>
    * 当发送消息的时候使用：
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_TEXT}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_IMAGE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_VOICE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_VIDEO}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_NEWS}
-   * {@link me.chanjar.weixin.common.api.WxConsts#XML_MSG_MUSIC}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_TEXT}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_IMAGE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_VOICE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_VIDEO}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_NEWS}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#XML_MSG_MUSIC}
    * </pre>
    *
    * @param msgType

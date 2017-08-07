@@ -1,8 +1,9 @@
 package me.chanjar.weixin.mp.util.json;
 
+import com.cico.modules.weixin.common.util.json.GsonHelper;
 import com.google.gson.*;
 import com.google.gson.reflect.TypeToken;
-import me.chanjar.weixin.common.util.json.GsonHelper;
+
 import me.chanjar.weixin.mp.bean.WxMpCard;
 import me.chanjar.weixin.mp.bean.result.WxMpCardResult;
 

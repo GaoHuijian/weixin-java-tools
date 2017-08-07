@@ -1,8 +1,8 @@
 package cn.binarywang.wx.miniapp.api;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
-
 import java.io.File;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

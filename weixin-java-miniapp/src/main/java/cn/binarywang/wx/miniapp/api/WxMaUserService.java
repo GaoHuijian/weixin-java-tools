@@ -1,8 +1,9 @@
 package cn.binarywang.wx.miniapp.api;
 
+import com.cico.modules.weixin.common.exception.WxErrorException;
+
 import cn.binarywang.wx.miniapp.bean.WxMaJscode2SessionResult;
 import cn.binarywang.wx.miniapp.bean.WxMaUserInfo;
-import me.chanjar.weixin.common.exception.WxErrorException;
 
 /**
  * 用户信息相关操作接口

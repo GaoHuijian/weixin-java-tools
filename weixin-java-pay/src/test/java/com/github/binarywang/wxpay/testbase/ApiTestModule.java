@@ -1,12 +1,12 @@
 package com.github.binarywang.wxpay.testbase;
 
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.github.binarywang.wxpay.config.WxPayConfig;
 import com.github.binarywang.wxpay.service.WxPayService;
 import com.github.binarywang.wxpay.service.impl.WxPayServiceImpl;
 import com.google.inject.Binder;
 import com.google.inject.Module;
 import com.thoughtworks.xstream.XStream;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 import java.io.IOException;
 import java.io.InputStream;

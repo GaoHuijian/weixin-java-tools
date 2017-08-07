@@ -4,9 +4,10 @@ import cn.binarywang.wx.miniapp.api.WxMaQrcodeService;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.bean.WxMaQrcode;
 import cn.binarywang.wx.miniapp.util.http.QrCodeRequestExecutor;
-import me.chanjar.weixin.common.exception.WxErrorException;
 
 import java.io.File;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>

@@ -1,9 +1,10 @@
 package me.chanjar.weixin.mp.bean.kefu;
 
-import me.chanjar.weixin.common.api.WxConsts;
 import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage.WxArticle;
 import org.testng.*;
 import org.testng.annotations.*;
+
+import com.cico.modules.weixin.common.api.WxConsts;
 
 @Test
 public class WxMpKefuMessageTest {

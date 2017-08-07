@@ -1,13 +1,14 @@
 package me.chanjar.weixin.mp.util.http;
 
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestHttp;
 import me.chanjar.weixin.mp.bean.result.WxMpQrCodeTicket;
 import me.chanjar.weixin.mp.util.http.apache.ApacheQrCodeRequestExecutor;
 import me.chanjar.weixin.mp.util.http.jodd.JoddQrCodeRequestExecutor;
 import me.chanjar.weixin.mp.util.http.okhttp.OkhttpQrCodeRequestExecutor;
 
 import java.io.File;
+
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
 
 /**
  * 获得QrCode图片 请求执行器

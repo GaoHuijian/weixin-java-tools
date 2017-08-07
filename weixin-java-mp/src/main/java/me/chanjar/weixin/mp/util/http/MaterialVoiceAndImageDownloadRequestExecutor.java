@@ -1,13 +1,14 @@
 package me.chanjar.weixin.mp.util.http;
 
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestHttp;
 import me.chanjar.weixin.mp.util.http.apache.ApacheMaterialVoiceAndImageDownloadRequestExecutor;
 import me.chanjar.weixin.mp.util.http.jodd.JoddMaterialVoiceAndImageDownloadRequestExecutor;
 import me.chanjar.weixin.mp.util.http.okhttp.OkhttpMaterialVoiceAndImageDownloadRequestExecutor;
 
 import java.io.File;
 import java.io.InputStream;
+
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
 
 public abstract class MaterialVoiceAndImageDownloadRequestExecutor<H, P> implements RequestExecutor<InputStream, String> {
   protected RequestHttp<H, P> requestHttp;

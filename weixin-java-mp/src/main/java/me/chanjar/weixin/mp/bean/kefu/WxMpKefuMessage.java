@@ -100,14 +100,14 @@ public class WxMpKefuMessage implements Serializable {
   /**
    * <pre>
    * 请使用
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_TEXT}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_IMAGE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_VOICE}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_MUSIC}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_VIDEO}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_NEWS}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_MPNEWS}
-   * {@link me.chanjar.weixin.common.api.WxConsts#CUSTOM_MSG_WXCARD}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_TEXT}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_IMAGE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_VOICE}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_MUSIC}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_VIDEO}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_NEWS}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_MPNEWS}
+   * {@link com.cico.modules.weixin.common.api.WxConsts#CUSTOM_MSG_WXCARD}
    * </pre>
    *
    * @param msgType

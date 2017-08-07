@@ -1,8 +1,9 @@
 package cn.binarywang.wx.miniapp.util.xml;
 
 import cn.binarywang.wx.miniapp.bean.WxMaMessage;
+
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 import java.io.InputStream;
 import java.util.*;

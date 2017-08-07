@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.bean.material;
 
-import me.chanjar.weixin.common.util.ToStringUtils;
 import me.chanjar.weixin.mp.util.json.WxMpGsonBuilder;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.cico.modules.weixin.common.util.ToStringUtils;
 
 public class WxMpMaterialNews implements Serializable {
   private static final long serialVersionUID = -3283203652013494976L;

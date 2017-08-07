@@ -1,9 +1,10 @@
 package com.github.binarywang.wxpay.bean.request;
 
+import com.cico.modules.weixin.common.annotation.Required;
 import com.github.binarywang.wxpay.config.WxPayConfig;
 import com.github.binarywang.wxpay.exception.WxPayException;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.annotation.Required;
+
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 

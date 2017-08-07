@@ -1,9 +1,9 @@
 package me.chanjar.weixin.mp.bean.message;
 
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
 
 /**
  * <pre>

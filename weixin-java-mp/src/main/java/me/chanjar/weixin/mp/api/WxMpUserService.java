@@ -1,11 +1,12 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.bean.WxMpUserQuery;
 import me.chanjar.weixin.mp.bean.result.WxMpUser;
 import me.chanjar.weixin.mp.bean.result.WxMpUserList;
 
 import java.util.List;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * 用户管理相关操作接口

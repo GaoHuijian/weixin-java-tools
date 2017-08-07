@@ -1,8 +1,10 @@
 package cn.binarywang.wx.miniapp.util.crypt;
 
 import cn.binarywang.wx.miniapp.config.WxMaConfig;
-import me.chanjar.weixin.common.util.crypto.PKCS7Encoder;
+
 import org.apache.commons.codec.binary.Base64;
+
+import com.cico.modules.weixin.common.util.crypto.PKCS7Encoder;
 
 import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
@@ -13,7 +15,7 @@ import java.security.AlgorithmParameters;
 /**
  * @author <a href="https://github.com/binarywang">Binary Wang</a>
  */
-public class WxMaCryptUtils extends me.chanjar.weixin.common.util.crypto.WxCryptUtil {
+public class WxMaCryptUtils extends com.cico.modules.weixin.common.util.crypto.WxCryptUtil {
   public WxMaCryptUtils(WxMaConfig config) {
     this.appidOrCorpid = config.getAppid();
     this.token = config.getToken();

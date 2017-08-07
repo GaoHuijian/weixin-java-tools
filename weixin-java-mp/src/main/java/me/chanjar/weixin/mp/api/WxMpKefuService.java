@@ -1,12 +1,13 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
 import me.chanjar.weixin.mp.bean.kefu.WxMpKefuMessage;
 import me.chanjar.weixin.mp.bean.kefu.request.WxMpKfAccountRequest;
 import me.chanjar.weixin.mp.bean.kefu.result.*;
 
 import java.io.File;
 import java.util.Date;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

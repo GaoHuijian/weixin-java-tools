@@ -5,14 +5,14 @@ import jodd.http.HttpRequest;
 import jodd.http.HttpResponse;
 import jodd.http.ProxyInfo;
 import jodd.util.StringPool;
-
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.RequestHttp;
 import me.chanjar.weixin.mp.bean.material.WxMpMaterialVideoInfoResult;
 import me.chanjar.weixin.mp.util.http.MaterialVideoInfoRequestExecutor;
 
 import java.io.IOException;
+
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
 
 /**
  * Created by ecoolper on 2017/5/5.

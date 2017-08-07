@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.util.http;
 
-import me.chanjar.weixin.common.util.http.RequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestHttp;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestHttp;
+
 import me.chanjar.weixin.mp.util.http.apache.ApacheMaterialDeleteRequestExecutor;
 import me.chanjar.weixin.mp.util.http.jodd.JoddMaterialDeleteRequestExecutor;
 import me.chanjar.weixin.mp.util.http.okhttp.OkhttpMaterialDeleteRequestExecutor;

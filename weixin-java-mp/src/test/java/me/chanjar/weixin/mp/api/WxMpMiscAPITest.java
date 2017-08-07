@@ -1,7 +1,8 @@
 package me.chanjar.weixin.mp.api;
 
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.inject.Inject;
-import me.chanjar.weixin.common.exception.WxErrorException;
+
 import me.chanjar.weixin.mp.api.test.ApiTestModule;
 import org.testng.*;
 import org.testng.annotations.*;

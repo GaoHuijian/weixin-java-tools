@@ -1,10 +1,10 @@
 package cn.binarywang.wx.miniapp.api;
 
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
-
 import java.io.File;
 import java.io.InputStream;
+
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.exception.WxErrorException;
 
 /**
  * <pre>

@@ -2,14 +2,15 @@ package me.chanjar.weixin.mp.api.impl;
 
 import jodd.http.*;
 import jodd.http.net.SocketHttpConnectionProvider;
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.http.HttpType;
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import me.chanjar.weixin.mp.api.WxMpService;
 
 import java.util.concurrent.locks.Lock;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.http.HttpType;
 
 /**
  * jodd-http方式实现

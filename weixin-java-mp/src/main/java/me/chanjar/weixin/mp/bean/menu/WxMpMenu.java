@@ -1,10 +1,10 @@
 package me.chanjar.weixin.mp.bean.menu;
 
+import com.cico.modules.weixin.common.bean.menu.WxMenuButton;
+import com.cico.modules.weixin.common.bean.menu.WxMenuRule;
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.json.WxGsonBuilder;
 import com.google.gson.annotations.SerializedName;
-import me.chanjar.weixin.common.bean.menu.WxMenuButton;
-import me.chanjar.weixin.common.bean.menu.WxMenuRule;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.json.WxGsonBuilder;
 
 import java.util.List;
 

@@ -1,8 +1,9 @@
 package me.chanjar.weixin.mp.bean.message;
 
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
+
 import me.chanjar.weixin.mp.api.WxMpConfigStorage;
 import me.chanjar.weixin.mp.builder.outxml.*;
 import me.chanjar.weixin.mp.util.crypto.WxMpCryptUtil;

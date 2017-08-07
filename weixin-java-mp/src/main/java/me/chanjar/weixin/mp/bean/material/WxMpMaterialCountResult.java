@@ -1,8 +1,8 @@
 package me.chanjar.weixin.mp.bean.material;
 
-import me.chanjar.weixin.common.util.ToStringUtils;
-
 import java.io.Serializable;
+
+import com.cico.modules.weixin.common.util.ToStringUtils;
 
 public class WxMpMaterialCountResult implements Serializable {
   private static final long serialVersionUID = -5568772662085874138L;

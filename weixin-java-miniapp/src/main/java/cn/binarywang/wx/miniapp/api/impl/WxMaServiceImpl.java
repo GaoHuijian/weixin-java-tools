@@ -2,14 +2,16 @@ package cn.binarywang.wx.miniapp.api.impl;
 
 import cn.binarywang.wx.miniapp.api.*;
 import cn.binarywang.wx.miniapp.config.WxMaConfig;
+
+import com.cico.modules.weixin.common.bean.WxAccessToken;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.crypto.SHA1;
+import com.cico.modules.weixin.common.util.http.*;
+import com.cico.modules.weixin.common.util.http.apache.ApacheHttpClientBuilder;
+import com.cico.modules.weixin.common.util.http.apache.DefaultApacheHttpClientBuilder;
 import com.google.gson.JsonParser;
-import me.chanjar.weixin.common.bean.WxAccessToken;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.crypto.SHA1;
-import me.chanjar.weixin.common.util.http.*;
-import me.chanjar.weixin.common.util.http.apache.ApacheHttpClientBuilder;
-import me.chanjar.weixin.common.util.http.apache.DefaultApacheHttpClientBuilder;
+
 import org.apache.http.HttpHost;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.client.methods.CloseableHttpResponse;

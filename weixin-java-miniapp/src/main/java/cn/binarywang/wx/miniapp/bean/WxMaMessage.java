@@ -4,11 +4,13 @@ import cn.binarywang.wx.miniapp.config.WxMaConfig;
 import cn.binarywang.wx.miniapp.util.crypt.WxMaCryptUtils;
 import cn.binarywang.wx.miniapp.util.json.WxMaGsonBuilder;
 import cn.binarywang.wx.miniapp.util.xml.XStreamTransformer;
+
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
 import com.google.gson.annotations.SerializedName;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
+
 import org.apache.commons.io.IOUtils;
 
 import java.io.IOException;

@@ -1,12 +1,12 @@
 package com.github.binarywang.wxpay.bean.result;
 
+import com.cico.modules.weixin.common.util.BeanUtils;
+import com.cico.modules.weixin.common.util.ToStringUtils;
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.github.binarywang.wxpay.bean.WxPayOrderNotifyCoupon;
 import com.github.binarywang.wxpay.converter.WxPayOrderNotifyResultConverter;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
-import me.chanjar.weixin.common.util.BeanUtils;
-import me.chanjar.weixin.common.util.ToStringUtils;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 import java.io.Serializable;
 import java.util.List;

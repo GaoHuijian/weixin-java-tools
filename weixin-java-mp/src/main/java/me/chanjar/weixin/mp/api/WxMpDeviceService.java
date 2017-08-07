@@ -1,6 +1,7 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+
 import me.chanjar.weixin.mp.bean.device.*;
 
 /**

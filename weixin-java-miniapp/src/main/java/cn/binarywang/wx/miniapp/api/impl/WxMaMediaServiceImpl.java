@@ -2,15 +2,17 @@ package cn.binarywang.wx.miniapp.api.impl;
 
 import cn.binarywang.wx.miniapp.api.WxMaMediaService;
 import cn.binarywang.wx.miniapp.api.WxMaService;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.bean.result.WxMediaUploadResult;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.util.fs.FileUtils;
-import me.chanjar.weixin.common.util.http.MediaDownloadRequestExecutor;
-import me.chanjar.weixin.common.util.http.MediaUploadRequestExecutor;
-import me.chanjar.weixin.common.util.http.RequestExecutor;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.bean.result.WxMediaUploadResult;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.util.fs.FileUtils;
+import com.cico.modules.weixin.common.util.http.MediaDownloadRequestExecutor;
+import com.cico.modules.weixin.common.util.http.MediaUploadRequestExecutor;
+import com.cico.modules.weixin.common.util.http.RequestExecutor;
 
 import java.io.File;
 import java.io.IOException;

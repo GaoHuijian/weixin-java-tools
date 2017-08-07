@@ -1,8 +1,9 @@
 package com.github.binarywang.wxpay.util;
 
-import me.chanjar.weixin.common.util.BeanUtils;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
+
+import com.cico.modules.weixin.common.util.BeanUtils;
 
 import java.util.Map;
 import java.util.SortedMap;

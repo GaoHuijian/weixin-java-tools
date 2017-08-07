@@ -1,11 +1,11 @@
 package com.github.binarywang.wxpay.bean;
 
+import com.cico.modules.weixin.common.util.xml.XStreamCDataConverter;
+import com.cico.modules.weixin.common.util.xml.XStreamInitializer;
 import com.thoughtworks.xstream.XStream;
 import com.thoughtworks.xstream.annotations.XStreamAlias;
 import com.thoughtworks.xstream.annotations.XStreamConverter;
 import com.thoughtworks.xstream.annotations.XStreamOmitField;
-import me.chanjar.weixin.common.util.xml.XStreamCDataConverter;
-import me.chanjar.weixin.common.util.xml.XStreamInitializer;
 
 @XStreamAlias("xml")
 public class WxPayOrderNotifyResponse {

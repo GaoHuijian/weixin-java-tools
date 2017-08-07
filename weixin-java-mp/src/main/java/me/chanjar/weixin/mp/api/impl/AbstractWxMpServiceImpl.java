@@ -1,17 +1,18 @@
 package me.chanjar.weixin.mp.api.impl;
 
+import com.cico.modules.weixin.common.bean.WxJsapiSignature;
+import com.cico.modules.weixin.common.bean.result.WxError;
+import com.cico.modules.weixin.common.exception.WxErrorException;
+import com.cico.modules.weixin.common.session.StandardSessionManager;
+import com.cico.modules.weixin.common.session.WxSessionManager;
+import com.cico.modules.weixin.common.util.RandomUtils;
+import com.cico.modules.weixin.common.util.crypto.SHA1;
+import com.cico.modules.weixin.common.util.http.*;
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
-import me.chanjar.weixin.common.bean.WxJsapiSignature;
-import me.chanjar.weixin.common.bean.result.WxError;
-import me.chanjar.weixin.common.exception.WxErrorException;
-import me.chanjar.weixin.common.session.StandardSessionManager;
-import me.chanjar.weixin.common.session.WxSessionManager;
-import me.chanjar.weixin.common.util.RandomUtils;
-import me.chanjar.weixin.common.util.crypto.SHA1;
-import me.chanjar.weixin.common.util.http.*;
+
 import me.chanjar.weixin.mp.api.*;
 import me.chanjar.weixin.mp.bean.*;
 import me.chanjar.weixin.mp.bean.result.*;

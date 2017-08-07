@@ -1,8 +1,10 @@
 package cn.binarywang.wx.miniapp.bean;
 
 import cn.binarywang.wx.miniapp.bean.WxMaMessage;
-import me.chanjar.weixin.common.api.WxConsts;
+
 import org.testng.annotations.Test;
+
+import com.cico.modules.weixin.common.api.WxConsts;
 
 import static org.testng.Assert.assertEquals;
 

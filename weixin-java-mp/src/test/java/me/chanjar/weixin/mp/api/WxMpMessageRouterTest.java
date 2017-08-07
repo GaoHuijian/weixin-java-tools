@@ -1,12 +1,13 @@
 package me.chanjar.weixin.mp.api;
 
-import me.chanjar.weixin.common.api.WxConsts;
-import me.chanjar.weixin.common.session.StandardSessionManager;
-import me.chanjar.weixin.common.session.WxSessionManager;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlMessage;
 import me.chanjar.weixin.mp.bean.message.WxMpXmlOutMessage;
 import org.testng.*;
 import org.testng.annotations.*;
+
+import com.cico.modules.weixin.common.api.WxConsts;
+import com.cico.modules.weixin.common.session.StandardSessionManager;
+import com.cico.modules.weixin.common.session.WxSessionManager;
 
 import java.util.Map;
 

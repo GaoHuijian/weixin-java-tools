@@ -3,8 +3,10 @@ package cn.binarywang.wx.miniapp.api.impl;
 import cn.binarywang.wx.miniapp.api.WxMaService;
 import cn.binarywang.wx.miniapp.config.WxMaConfig;
 import cn.binarywang.wx.miniapp.test.ApiTestModule;
+
+import com.cico.modules.weixin.common.exception.WxErrorException;
 import com.google.inject.Inject;
-import me.chanjar.weixin.common.exception.WxErrorException;
+
 import org.apache.commons.lang3.StringUtils;
 import org.testng.annotations.Guice;
 import org.testng.annotations.Test;
